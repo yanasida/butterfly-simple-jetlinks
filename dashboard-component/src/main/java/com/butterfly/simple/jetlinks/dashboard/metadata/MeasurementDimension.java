@@ -1,7 +1,8 @@
 package com.butterfly.simple.jetlinks.dashboard.metadata;
 
+import java.util.Map;
+
 /**
- *
  * 指标明细
  *
  * @author yanasida
@@ -12,12 +13,29 @@ public interface MeasurementDimension {
 
     DimensionDefinition getDefinition();
 
-    DataType getValueType();
+    /**
+     * 数据类型
+     *
+     * @return 数据类型
+     */
+//    DataType getValueType();
 
-    ConfigMetadata getParams();
+    /**
+     * 配置元数据
+     *
+     * @return 配置元数据
+     */
+//    ConfigMetadata getParams();
 
     boolean isRealTime();
 
-     Object getValue(MeasurementParameter parameter);
+    /**
+     * 获取值
+     *
+     * @param parameter 查询入参
+     * @return 值对象
+     */
+//    Object getValue(MeasurementParameter parameter);
+    Object getValue(Map<String, String> parameter);
 
 }

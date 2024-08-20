@@ -1,7 +1,7 @@
 package com.butterfly.simple.jetlinks.dashboard.metadata;
 
 /**
- * 维度定义
+ * 指标维度定义
  *
  * @author yanasida
  * @date 2024/8/20 18:04
