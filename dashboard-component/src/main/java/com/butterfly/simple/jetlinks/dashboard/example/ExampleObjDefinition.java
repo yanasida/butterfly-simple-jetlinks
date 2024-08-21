@@ -1,4 +1,4 @@
-package com.butterfly.simple.jetlinks.dashboard.provider.sys;
+package com.butterfly.simple.jetlinks.dashboard.example;
 
 import com.butterfly.simple.jetlinks.dashboard.metadata.ObjectDefinition;
 import lombok.AllArgsConstructor;
@@ -10,10 +10,8 @@ import lombok.AllArgsConstructor;
  * @date 2024-08-20-20:41
  */
 @AllArgsConstructor
-public enum SysObjDefinition implements ObjectDefinition {
+public enum ExampleObjDefinition implements ObjectDefinition {
 
-    cpu("CPU"),
-    memory("内存"),
     stats("运行状态");
 
     private final String name;

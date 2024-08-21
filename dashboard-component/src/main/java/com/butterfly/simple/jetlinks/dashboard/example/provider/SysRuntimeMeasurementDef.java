@@ -1,4 +1,4 @@
-package com.butterfly.simple.jetlinks.dashboard.provider.sys;
+package com.butterfly.simple.jetlinks.dashboard.example.provider;
 
 import com.butterfly.simple.jetlinks.dashboard.metadata.MeasurementDefinition;
 import lombok.RequiredArgsConstructor;

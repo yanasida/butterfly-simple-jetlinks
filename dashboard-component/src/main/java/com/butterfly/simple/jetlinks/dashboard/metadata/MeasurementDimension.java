@@ -18,14 +18,14 @@ public interface MeasurementDimension {
      *
      * @return 数据类型
      */
-//    DataType getValueType();
+    DataType getValueType();
 
     /**
      * 配置元数据
      *
      * @return 配置元数据
      */
-//    ConfigMetadata getParams();
+    ConfigMetadata getParams();
 
     boolean isRealTime();
 
@@ -36,6 +36,6 @@ public interface MeasurementDimension {
      * @return 值对象
      */
 //    Object getValue(MeasurementParameter parameter);
-    Object getValue(Map<String, String> parameter);
+    Object getValue(Map<String, Object> parameter);
 
 }

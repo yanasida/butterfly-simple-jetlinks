@@ -20,7 +20,7 @@ public enum DefaultDashboardDefinition implements DashboardDefinition {
 
     @Override
     public String getId() {
-        return this.name;
+        return name();
     }
 
     @Override
